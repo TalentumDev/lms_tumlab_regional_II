@@ -57,7 +57,7 @@ services:
       - aulas-steam-net
 
   backend:
-    image: bilinguismotalentum/backend:1.5.2.2
+    image: bilinguismotalentum/backend:1.7.15
     container_name: aulas_steam_reporter_backend
     restart: always
     extra_hosts:
@@ -93,7 +93,7 @@ services:
       - aulas-steam-net
 
   frontend:
-    image: bilinguismotalentum/frontend:2.2.6
+    image: bilinguismotalentum/frontend:2.5.11
     container_name: bilng_valle_reporter_frontend
     restart: always
     extra_hosts:
